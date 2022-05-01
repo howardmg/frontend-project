@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Crypto Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- create table -->
+    <div class="container">
+        <table class="table is-narrow is-hoverable" id="leaderboard">
+            <thead id="head-row">
+                <tr class="row">
+                    <th class="rank"><abbr title="Position">Rank</abbr></th>
+                    <th class="name">Name</th>
+                    <th class="symbol">Symbol</th>
+                    <th class="price">Price(USD)</th>
+                    <th class="market_cap">Market Cap</th>
+                    <th class="circulating_supply">Volume(24h)</th>
+                    <th class="volume_24h">Circulating Supply</th>
+                    <th class="percentage_change_24h">24h %</th>
+                </tr>
+            </thead>
+            <tbody id="cryptocurrencies">
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <input class="is-hovered" type="text" placeholder="Search coin symbol">
+        <button class="btn" id="search">Search</button>
+        <button class="btn" id="ticker">Full Crypto Ticker</button>
+        <img src="" alt="">
+    </div>
+
+   <!-- JS and JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="coinGecko.js"></script>
+</body>
+</html>

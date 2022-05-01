@@ -1,0 +1,77 @@
+.container {
+    display: block;
+    height: 400px;
+    padding: 4px;
+}
+
+.table {
+    background-color: #ffe08a;
+    /* width: 90vw; */
+}
+
+.row {
+    align-content: end;
+    padding-bottom: 5px;
+}
+
+.row #head-row {
+    padding;
+}
+
+.table thead th {
+    color: #945c00;
+}
+
+.table tbody {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+#leaderboard #cryptocurrencies tr {
+    display: block;
+    clear: both;
+    position: absolute;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
+.cryptocurrency {
+    padding: 25px 0 0 0;
+}
+
+.rank {
+    width: 60px;
+}
+
+.name {
+    width: 200px;
+}
+
+.symbol {
+    width: 80px;
+}
+
+.price {
+    width: 100px;
+}
+
+.market_cap {
+    width: 150px;
+}
+
+.circulating_supply {
+    width: 170px;
+}
+
+.volume_24h {
+    width: 140px;
+}
+
+.percentage_change_24h {
+    width: 100px;
+}
+
+#userSearch {
+    display: flex;
+}
